@@ -183,3 +183,9 @@ RefactoringAction 1495132555000 TennisGame.java RENAME chechk=>boolean chec FIEL
 RefactoringAction 1495132559034 TennisGame.java RENAME chec=>boolean check FIELD
 RefactoringAction 1495132566624 TennisGame.java RENAME checkgameEnded()=>boolean checkGameEnded() METHOD
 EditAction 1495132673337 TennisGame.java 1684 6 8 0
+CompilationAction 1495132676832 NumericScores.java
+RefactoringAction 1495132710072 NumericScores.java ADD import main.TennisGameException IMPORT
+CompilationAction 1495132813541 NumericScores.java
+UnitTestCaseAction 1495132814850 NumericScores.java FAIL
+UnitTestSessionAction 1495132814854 NumericScores FAIL
+EditAction 1495132849250 TennisGame.java 1684 6 8 0
