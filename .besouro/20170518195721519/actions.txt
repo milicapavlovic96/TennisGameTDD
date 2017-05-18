@@ -115,3 +115,4 @@ UnitTestSessionAction 1495131531533 NumericScores OK
 RefactoringAction 1495131547691 NumericScores.java ADD void test_player1_scored_three_player2_scored_twice()/2 METHOD
 RefactoringAction 1495131552728 NumericScores.java RENAME test_player1_scored_three_player2_scored_twice()/2=>void test_deuce() METHOD
 EditAction 1495131561233 NumericScores.java 4173 15 88 15
+EditAction 1495131759827 TennisGame.java 822 5 7 0
