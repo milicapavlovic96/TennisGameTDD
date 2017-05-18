@@ -128,3 +128,8 @@ EditAction 1495131889546 NumericScores.java 4554 16 99 16
 UnitTestCaseAction 1495131893275 NumericScores.java OK
 UnitTestSessionAction 1495131893276 NumericScores OK
 EditAction 1495131897836 NumericScores.java 4553 16 99 16
+UnitTestCaseAction 1495131904448 NumericScores.java FAIL
+UnitTestSessionAction 1495131904449 NumericScores FAIL
+RefactoringAction 1495131912077 NumericScores.java RENAME test_advantage()=>void test_advantage_() METHOD
+RefactoringAction 1495131914626 NumericScores.java RENAME test_advantage_()=>void test_advantage_player1() METHOD
+EditAction 1495131915609 NumericScores.java 4563 16 99 16

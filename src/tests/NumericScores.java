@@ -161,7 +161,7 @@ public class NumericScores {
 		assertEquals("Initial score incorrect", "deuce", score);	
 	}
 	@Test
-	public void test_advantage() {
+	public void test_advantage_player1() {
 		TennisGame game = new TennisGame();
 		game.player1Scored();
 		game.player1Scored();
@@ -172,6 +172,6 @@ public class NumericScores {
 		
 		game.player1Scored();
 		String score = game.getScore();
-		assertEquals("Initial score incorrect", "advantage_player", score);	
+		assertEquals("Initial score incorrect", "advantage_player1S", score);	
 	}
 }
