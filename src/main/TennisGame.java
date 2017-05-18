@@ -13,10 +13,15 @@ public class TennisGame
 		gameEnded=false;
 	}
 	
-	public void player1Scored(){
+	public void player1Scored() throws TennisGameException{
+		if(gameEnded==true){
+			throw new TennisGameException();
+		}else
 		player1Points++;
 	}
-	public void player2Scored(){
+	public void player2Scored() throws TennisGameException{
+		if(gameEnded==true){
+	}else
 		player2Points++;
 	}
 	
