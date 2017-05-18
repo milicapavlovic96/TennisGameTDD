@@ -146,3 +146,6 @@ RefactoringAction 1495132038202 NumericScores.java ADD void test_advantage_playe
 RefactoringAction 1495132041262 NumericScores.java RENAME test_advantage_player1()/2=>void test_advantage_player() METHOD
 RefactoringAction 1495132041850 NumericScores.java RENAME test_advantage_player()=>void test_advantage_player2() METHOD
 EditAction 1495132044367 NumericScores.java 5310 18 120 18
+UnitTestCaseAction 1495132048148 NumericScores.java OK
+UnitTestSessionAction 1495132048150 NumericScores.test_advantage_player2 OK
+EditAction 1495132059012 NumericScores.java 5310 18 120 18

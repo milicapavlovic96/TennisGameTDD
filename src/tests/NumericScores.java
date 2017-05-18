@@ -185,9 +185,9 @@ public class NumericScores {
 		game.player2Scored();
 		game.player2Scored();
 		
-		game.player1Scored();
+		game.player2Scored();
 		String score = game.getScore();
-		assertEquals("Initial score incorrect", "advantage_player1", score);	
+		assertEquals("Initial score incorrect", "advantage_player2", score);	
 	}
 	
 	@Test
