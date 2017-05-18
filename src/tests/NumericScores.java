@@ -156,6 +156,7 @@ public class NumericScores {
 		game.player1Scored();
 		game.player2Scored();
 		game.player2Scored();
+		game.player2Scored();
 		String score = game.getScore();
 		assertEquals("Initial score incorrect", "deuce", score);	
 	}
