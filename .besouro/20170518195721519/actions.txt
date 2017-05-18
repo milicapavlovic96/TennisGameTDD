@@ -10,3 +10,13 @@ RefactoringAction 1495130532674 TennisGame.java ADD String getSco FIELD
 RefactoringAction 1495130534683 TennisGame.java RENAME getSco=>String getScore() METHOD
 CompilationAction 1495130657183 TennisGame.java
 EditAction 1495130664728 NumericScores.java 381 1 3 1
+CompilationAction 1495130678553 TennisGame.java
+UnitTestCaseAction 1495130681441 NumericScores.java OK
+UnitTestSessionAction 1495130681443 NumericScores.test_StartScore OK
+RefactoringAction 1495130714803 NumericScores.java ADD void test_StartScore()/2 METHOD
+RefactoringAction 1495130728313 NumericScores.java RENAME test_StartScore()/2=>void test_player() METHOD
+RefactoringAction 1495130729351 NumericScores.java RENAME test_player()=>void test_player1() METHOD
+RefactoringAction 1495130730883 NumericScores.java RENAME test_player1()=>void test_player115() METHOD
+RefactoringAction 1495130732401 NumericScores.java RENAME test_player115()=>void test_player1() METHOD
+RefactoringAction 1495130737421 NumericScores.java RENAME test_player1()=>void test_player1_scored() METHOD
+EditAction 1495130811256 NumericScores.java 590 2 7 2
