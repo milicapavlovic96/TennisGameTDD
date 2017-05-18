@@ -24,11 +24,11 @@ public class TennisGame
 		if(points==0){
 			return "0";
 		} else if(points==1){
-			return "1";
+			return "15";
 		}else if(points==2){
-			return "2";
+			return "30";
 		}else if(points==4){
-			return "4";
+			return "40";
 		}else{
 			return "";
 		}
