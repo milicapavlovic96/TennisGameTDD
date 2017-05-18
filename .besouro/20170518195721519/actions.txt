@@ -211,3 +211,7 @@ UnitTestCaseAction 1495133272479 NumericScores.java FAIL
 UnitTestSessionAction 1495133272480 NumericScores FAIL
 RefactoringAction 1495133284672 NumericScores.java REMOVE test_game_player2_exception() METHOD
 EditAction 1495133284781 NumericScores.java 6695 20 143 20
+UnitTestCaseAction 1495133289016 NumericScores.java OK
+UnitTestSessionAction 1495133289018 NumericScores OK
+RefactoringAction 1495133292260 NumericScores.java ADD void test_game_player2_exception() METHOD
+EditAction 1495133293623 NumericScores.java 7168 21 155 21
