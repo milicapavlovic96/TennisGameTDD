@@ -135,4 +135,16 @@ public class NumericScores {
 		String score = game.getScore();
 		assertEquals("Initial score incorrect", "30 - 40", score);	
 	}
+	
+	@Test
+	public void test_player1_scored_three_player2_scored_twice() {
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		String score = game.getScore();
+		assertEquals("Initial score incorrect", "40 - 30", score);	
+	}
 }

@@ -104,3 +104,9 @@ UnitTestSessionAction 1495131437604 NumericScores OK
 RefactoringAction 1495131451605 NumericScores.java ADD void test_player1_scored_once_player2_scored_three()/2 METHOD
 RefactoringAction 1495131466229 NumericScores.java RENAME test_player1_scored_once_player2_scored_three()/2=>void test_player1_scored_twice_player2_scored_three() METHOD
 EditAction 1495131471532 NumericScores.java 3551 13 72 13
+UnitTestCaseAction 1495131476113 NumericScores.java OK
+UnitTestSessionAction 1495131476114 NumericScores.test_player1_scored_twice_player2_scored_three OK
+RefactoringAction 1495131492297 NumericScores.java ADD void test_player1_scored_twice_player2_scored_three()/2 METHOD
+RefactoringAction 1495131504006 NumericScores.java RENAME test_player1_scored_twice_player2_scored_three()/2=>void test_player1_scored_three_player2_scored_three() METHOD
+RefactoringAction 1495131507555 NumericScores.java RENAME test_player1_scored_three_player2_scored_three()=>void test_player1_scored_three_player2_scored_twice() METHOD
+EditAction 1495131526815 NumericScores.java 3881 14 80 14
