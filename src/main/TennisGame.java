@@ -31,7 +31,8 @@ public class TennisGame
 		if((player1Points-2==player2Points)||(player1Points==player2Points-2)){
 				if(player1Points>3 || player2Points>3){
 			gameEnded=true;
-		}else
+		}
+		}else{
 			gameEnded=false;
 		}
 	}
