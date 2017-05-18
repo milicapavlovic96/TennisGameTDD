@@ -21,3 +21,8 @@ RefactoringAction 1495130732401 NumericScores.java RENAME test_player115()=>void
 RefactoringAction 1495130737421 NumericScores.java RENAME test_player1()=>void test_player1_scored() METHOD
 EditAction 1495130811256 NumericScores.java 590 2 7 2
 EditAction 1495130879415 TennisGame.java 708 5 7 0
+UnitTestCaseAction 1495130885162 NumericScores.java FAIL
+UnitTestSessionAction 1495130885171 NumericScores FAIL
+UnitTestCaseAction 1495130922332 NumericScores.java FAIL
+UnitTestSessionAction 1495130922334 NumericScores FAIL
+EditAction 1495130946056 NumericScores.java 590 2 8 2

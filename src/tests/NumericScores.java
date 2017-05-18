@@ -21,9 +21,9 @@ public class NumericScores {
 	
 	@Test
 	public void test_player1_scored() {
-		TennisGame game = new TennisGame();
-		String score = game.getScore() ;
+		TennisGame game = new TennisGame();;
 		game.player1Scored();
+		String score = game.getScore();
 		assertEquals("Initial score incorrect", "15 - 0", score);	
 	}
 	
