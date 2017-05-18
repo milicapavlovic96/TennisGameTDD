@@ -37,3 +37,8 @@ RefactoringAction 1495130993664 NumericScores.java RENAME test_player1_scored_()
 RefactoringAction 1495130995700 NumericScores.java RENAME test_player1_scored()=>void test_player1_scored_() METHOD
 RefactoringAction 1495130997729 NumericScores.java RENAME test_player1_scored_()=>void test_player1_scored_twice() METHOD
 EditAction 1495131005716 NumericScores.java 830 3 12 3
+UnitTestCaseAction 1495131010499 NumericScores.java OK
+UnitTestSessionAction 1495131010501 NumericScores OK
+RefactoringAction 1495131027802 NumericScores.java ADD void test_player1_scored_twice()/2 METHOD
+RefactoringAction 1495131036370 NumericScores.java RENAME test_player1_scored_twice()/2=>void test_player1_scored_three() METHOD
+EditAction 1495131046707 NumericScores.java 1088 4 18 4
