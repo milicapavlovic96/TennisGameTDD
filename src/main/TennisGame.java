@@ -35,7 +35,7 @@ public class TennisGame
 	}
 	
 	public String getScore(){
-		if(player1Points<3 || player2Points<3)
+		if(player1Points<=3 || player2Points<=3)
 			return getScore(player1Points) + " - " + getScore(player2Points);
 		
 	else{
