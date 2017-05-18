@@ -203,3 +203,11 @@ EditAction 1495133130911 TennisGame.java 1720 6 10 0
 UnitTestCaseAction 1495133135275 NumericScores.java FAIL
 UnitTestSessionAction 1495133135276 NumericScores FAIL
 EditAction 1495133254204 TennisGame.java 1681 6 10 0
+CompilationAction 1495133257115 TennisGame.java
+CompilationAction 1495133257119 TennisGame.java
+CompilationAction 1495133266823 TennisGame.java
+CompilationAction 1495133266824 TennisGame.java
+UnitTestCaseAction 1495133272479 NumericScores.java FAIL
+UnitTestSessionAction 1495133272480 NumericScores FAIL
+RefactoringAction 1495133284672 NumericScores.java REMOVE test_game_player2_exception() METHOD
+EditAction 1495133284781 NumericScores.java 6695 20 143 20
