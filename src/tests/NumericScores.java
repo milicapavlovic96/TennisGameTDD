@@ -70,7 +70,7 @@ public class NumericScores {
 		game.player2Scored();
 		game.player2Scored();
 		String score = game.getScore();
-		assertEquals("Initial score incorrect", "40 - 0", score);	
+		assertEquals("Initial score incorrect", "0 - 40", score);	
 	}
 
 }

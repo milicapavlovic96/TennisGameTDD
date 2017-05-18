@@ -60,3 +60,6 @@ RefactoringAction 1495131163470 NumericScores.java RENAME test_player_scored_twi
 RefactoringAction 1495131178609 NumericScores.java RENAME test_player1_scored_three()/2=>void test_player_scored_three() METHOD
 RefactoringAction 1495131179645 NumericScores.java RENAME test_player_scored_three()=>void test_player2_scored_three() METHOD
 EditAction 1495131181464 NumericScores.java 1795 7 33 7
+UnitTestCaseAction 1495131185895 NumericScores.java FAIL
+UnitTestSessionAction 1495131185899 NumericScores.test_player2_scored_three FAIL
+EditAction 1495131196793 NumericScores.java 1795 7 33 7
