@@ -236,3 +236,5 @@ UnitTestCaseAction 1495133473524 NumericScores.java FAIL
 UnitTestSessionAction 1495133473526 NumericScores FAIL
 RefactoringAction 1495133479534 NumericScores.java REMOVE test_game_player2_exception() METHOD
 EditAction 1495133480368 NumericScores.java 6695 20 143 20
+UnitTestCaseAction 1495133488456 NumericScores.java OK
+UnitTestSessionAction 1495133488458 NumericScores OK
