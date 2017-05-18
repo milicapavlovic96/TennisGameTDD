@@ -20,11 +20,20 @@ public class NumericScores {
 	
 	
 	@Test
-	public void test_player1_scored() {
-		TennisGame game = new TennisGame();;
+	public void test_player1_scored_once() {
+		TennisGame game = new TennisGame();
 		game.player1Scored();
 		String score = game.getScore();
 		assertEquals("Initial score incorrect", "15 - 0", score);	
+	}
+	
+	@Test
+	public void test_player1_scored_twice() {
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		String score = game.getScore();
+		assertEquals("Initial score incorrect", "30 - 0", score);	
 	}
 	
 
