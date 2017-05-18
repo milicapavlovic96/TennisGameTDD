@@ -47,6 +47,12 @@ public class TennisGame
 		else if(player1Points==player2Points-1 && (player1Points>=3 && player2Points>=3)){
 			return "advantage_player2";
 		}
+		else if(player1Points-2==player2Points && (player1Points>=3 && player2Points>=3)){
+			return "game_player1";
+		}
+		else if(player1Points==player2Points-2 && (player1Points>=3 && player2Points>=3)){
+			return "game_player2";
+		}
 		
 	else{
 		return "";
