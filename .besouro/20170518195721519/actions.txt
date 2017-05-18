@@ -99,3 +99,8 @@ RefactoringAction 1495131418313 NumericScores.java ADD void test_player1_scored_
 RefactoringAction 1495131424404 NumericScores.java RENAME test_player1_scored_once_player2_scored_twice()/2=>void test_player1_scored_once_player2_scored_() METHOD
 RefactoringAction 1495131425957 NumericScores.java RENAME test_player1_scored_once_player2_scored_()=>void test_player1_scored_once_player2_scored_three() METHOD
 EditAction 1495131432692 NumericScores.java 3221 12 64 12
+UnitTestCaseAction 1495131437602 NumericScores.java OK
+UnitTestSessionAction 1495131437604 NumericScores OK
+RefactoringAction 1495131451605 NumericScores.java ADD void test_player1_scored_once_player2_scored_three()/2 METHOD
+RefactoringAction 1495131466229 NumericScores.java RENAME test_player1_scored_once_player2_scored_three()/2=>void test_player1_scored_twice_player2_scored_three() METHOD
+EditAction 1495131471532 NumericScores.java 3551 13 72 13
