@@ -147,4 +147,16 @@ public class NumericScores {
 		String score = game.getScore();
 		assertEquals("Initial score incorrect", "40 - 30", score);	
 	}
+	
+	@Test
+	public void test_deuce() {
+		TennisGame game = new TennisGame();
+		game.player1Scored();
+		game.player1Scored();
+		game.player1Scored();
+		game.player2Scored();
+		game.player2Scored();
+		String score = game.getScore();
+		assertEquals("Initial score incorrect", "deuce", score);	
+	}
 }
