@@ -27,7 +27,7 @@ public class TennisGame
 			return "15";
 		}else if(points==2){
 			return "30";
-		}else if(points==4){
+		}else if(points==3){
 			return "40";
 		}else{
 			return "";
