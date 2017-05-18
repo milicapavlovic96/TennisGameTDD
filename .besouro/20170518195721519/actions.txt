@@ -1,0 +1,12 @@
+FileOpenedAction 1495130242263 TennisGame.java 433 3 5 0
+RefactoringAction 1495130272932 TennisGame.java ADD void get FIELD
+RefactoringAction 1495130276469 TennisGame.java RENAME get=>void getScore() METHOD
+RefactoringAction 1495130300437 TennisGame.java RENAME getScore()=>void getScore(int) METHOD
+RefactoringAction 1495130520614 TennisGame.java ADD String Sco FIELD
+RefactoringAction 1495130523150 TennisGame.java REMOVE Sco FIELD
+RefactoringAction 1495130528151 TennisGame.java ADD String GE FIELD
+RefactoringAction 1495130530165 TennisGame.java REMOVE GE FIELD
+RefactoringAction 1495130532674 TennisGame.java ADD String getSco FIELD
+RefactoringAction 1495130534683 TennisGame.java RENAME getSco=>String getScore() METHOD
+CompilationAction 1495130657183 TennisGame.java
+EditAction 1495130664728 NumericScores.java 381 1 3 1
