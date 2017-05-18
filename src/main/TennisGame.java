@@ -25,6 +25,13 @@ public class TennisGame
 		player2Points++;
 	}
 	
+	public void checkGameEnded(){
+		if((player1Points-2==player2Points && (player1Points>=3 && player2Points>=3))&&(player1Points==player2Points-2 && (player1Points>=3 && player2Points>=3))){
+			gameEnded=true;
+		}else
+			gameEnded=false;
+	}
+	
 	public String getScore(int points){
 		if(points==0){
 			return "0";

@@ -176,3 +176,10 @@ RefactoringAction 1495132170890 NumericScores.java ADD void expected() METHOD
 RefactoringAction 1495132356547 NumericScores.java REMOVE expected() METHOD
 RefactoringAction 1495132474488 TennisGame.java RENAME player1Scored()=>void player1Scored FIELD
 EditAction 1495132530482 TennisGame.java 1443 5 7 0
+CompilationAction 1495132533629 NumericScores.java
+RefactoringAction 1495132548417 TennisGame.java ADD void chech FIELD
+RefactoringAction 1495132553955 TennisGame.java RENAME chech=>boolean chechk FIELD
+RefactoringAction 1495132555000 TennisGame.java RENAME chechk=>boolean chec FIELD
+RefactoringAction 1495132559034 TennisGame.java RENAME chec=>boolean check FIELD
+RefactoringAction 1495132566624 TennisGame.java RENAME checkgameEnded()=>boolean checkGameEnded() METHOD
+EditAction 1495132673337 TennisGame.java 1684 6 8 0
