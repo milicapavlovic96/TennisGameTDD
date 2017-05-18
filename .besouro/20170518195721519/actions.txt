@@ -124,3 +124,4 @@ UnitTestSessionAction 1495131785475 NumericScores OK
 RefactoringAction 1495131801092 NumericScores.java ADD void test_deuce()/2 METHOD
 RefactoringAction 1495131814145 NumericScores.java RENAME test_deuce()/2=>void test_advantage() METHOD
 EditAction 1495131880161 TennisGame.java 942 5 7 0
+EditAction 1495131889546 NumericScores.java 4554 16 99 16
