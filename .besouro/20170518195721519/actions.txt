@@ -48,3 +48,15 @@ EditAction 1495131113956 TennisGame.java 713 5 7 0
 UnitTestCaseAction 1495131119174 NumericScores.java FAIL
 UnitTestSessionAction 1495131119176 NumericScores FAIL
 EditAction 1495131127246 TennisGame.java 713 5 7 0
+UnitTestCaseAction 1495131131506 NumericScores.java OK
+UnitTestSessionAction 1495131131508 NumericScores OK
+RefactoringAction 1495131141996 NumericScores.java ADD void test_player1_scored_once()/2 METHOD
+RefactoringAction 1495131142010 NumericScores.java ADD void test_player1_scored_twice()/2 METHOD
+RefactoringAction 1495131142011 NumericScores.java ADD void test_player1_scored_three()/2 METHOD
+RefactoringAction 1495131147056 NumericScores.java RENAME test_player1_scored_once()/2=>void test_player_scored_once() METHOD
+RefactoringAction 1495131148090 NumericScores.java RENAME test_player_scored_once()=>void test_player2_scored_once() METHOD
+RefactoringAction 1495131162438 NumericScores.java RENAME test_player1_scored_twice()/2=>void test_player_scored_twice() METHOD
+RefactoringAction 1495131163470 NumericScores.java RENAME test_player_scored_twice()=>void test_player2_scored_twice() METHOD
+RefactoringAction 1495131178609 NumericScores.java RENAME test_player1_scored_three()/2=>void test_player_scored_three() METHOD
+RefactoringAction 1495131179645 NumericScores.java RENAME test_player_scored_three()=>void test_player2_scored_three() METHOD
+EditAction 1495131181464 NumericScores.java 1795 7 33 7
