@@ -155,3 +155,9 @@ EditAction 1495132066149 NumericScores.java 5309 18 120 18
 UnitTestCaseAction 1495132070466 NumericScores.java FAIL
 UnitTestSessionAction 1495132070468 NumericScores FAIL
 EditAction 1495132076098 NumericScores.java 5310 18 120 18
+UnitTestCaseAction 1495132080254 NumericScores.java OK
+UnitTestSessionAction 1495132080255 NumericScores OK
+RefactoringAction 1495132092166 NumericScores.java ADD void test_game_player1()/2 METHOD
+RefactoringAction 1495132094208 NumericScores.java RENAME test_game_player1()/2=>void test_game_player() METHOD
+RefactoringAction 1495132095251 NumericScores.java RENAME test_game_player()=>void test_game_player2() METHOD
+EditAction 1495132101406 NumericScores.java 5689 19 131 19
